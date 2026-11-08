@@ -12,6 +12,14 @@ These skills are **copied** (vendored) into `.claude/skills/` so they load autom
 | codebase-design | github.com/mattpocock/skills | 4ae2317ddb22b046e26455e4f9c9b3aaaf62212d | plugin v1.3.2 | MIT (`LICENSE-mattpocock-skills`) |
 | domain-modeling | github.com/mattpocock/skills | 4ae2317ddb22b046e26455e4f9c9b3aaaf62212d | plugin v1.3.2 | MIT |
 
+## Skills copied from the PO's Claude account
+| Skill folder | Upstream (as stated in the file) | Copied from | License |
+|---|---|---|---|
+| ui-taste | Distilled from Leonxlnx/taste-skill v2 | PO's claude.ai account skills, 2026-11-08 | MIT (per file header) |
+| karpathy-coding-guidelines | forrestchang/andrej-karpathy-skills | PO's claude.ai account skills, 2026-11-08 | MIT (per file header) |
+
+Not copied from the account: test-driven-development, systematic-debugging, verification-before-completion (the Superpowers copies above are used instead), lean-mode and caveman (terse styles conflict with the plain-language PO reports), and the document skills (docx, pdf, pptx, xlsx, docs, google-workspace, morning, import-memory, artifact-emulator, skill-creator), which are general account tools, not part of this project's workflow.
+
 Project-authored skills (not vendored): `add-supabase-migration`, `write-task-brief`, `review-subagent-pr`.
 
 Full vetting notes, the skipped list and precedence rules: `docs/plan/D18-tooling-report.md`.
